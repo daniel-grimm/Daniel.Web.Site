@@ -6,6 +6,7 @@ body {
 h1 {
     font-family: Verdana, sans-serif;
     text-align: center;
+    border: solid #CCCCCC 4px;
 }
 
 h2 {
@@ -14,6 +15,33 @@ h2 {
 }
 
 p {
-    font-family: Verdana, sans-serif;
+    font-family: serif;
     text-align: left;
+}
+
+footer {
+    position: fixed;
+    left: 3%;
+    bottom: 0;
+    width: 100%;
+}
+
+#title {
+    height: 225px;
+    border: solid #CCCCCC 2px;
+    white-space: normal;
+    display: flex;
+    align-items: center;
+}
+
+#subtitle {
+    padding-left: 2%;
+}
+
+#linkedin_profile {
+    padding-left: 0%;
+}
+
+#github_profile {
+    padding-left: 2%;
 }
