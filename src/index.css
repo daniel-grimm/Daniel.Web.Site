@@ -17,3 +17,11 @@ p {
     font-family: Verdana, sans-serif;
     text-align: left;
 }
+
+#title {
+    height: 100px;
+    border: solid #FFFFFF 2px;
+    white-space: normal;
+    display: flex;
+    align-items: center;
+}
